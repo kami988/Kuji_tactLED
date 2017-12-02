@@ -101,7 +101,7 @@ void LED_result() { //結果表示
   }
 }
 
-boolean P_edge() { //ポジティブエッジでタクトスイッチの状態を判断(ポジティブエッジとは？)
+boolean P_edge() { //ポジティブエッジでタクトスイッチの状態を判断
   boolean sw_now;
   boolean edge = false;
   sw_now = digitalRead(SWpin);
