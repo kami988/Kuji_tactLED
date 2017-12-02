@@ -1,6 +1,5 @@
-const int LED_Number = 5; //constじゃないとエラーが出るのはなぜ？
+const int LED_Number = 5;
 int WaiteTime = 500;
-//上二つを用意する理由は？
 
 //わかりやすくするため
 const boolean B_HIGH = LOW;
@@ -40,7 +39,6 @@ void LED_kuji() {
         mode = 1;
       }
       break;
-
     case 1:// LEDが移動している
       for (int i = 0; i < LED_Number; i++) {
         LED_moving(i);
